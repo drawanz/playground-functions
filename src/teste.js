@@ -1,30 +1,29 @@
-let array = [1, 9, 2, 3, 9, 5, 7];
+/* Crie uma função chamada fizzBuzz que receba uma array de números e retorne uma array da seguinte forma:
 
-let resultado = 0;
-let repete = 0;
-let negativo =0;
+Para cada número do Array que seja divisível apenas por 3, apresente uma string "fizz";
+Para cada número do Array que seja divisível apenas por 5, apresente uma string "buzz";
+Caso o número seja divisível por 3 e 5, retorne a string "fizzBuzz";
+Caso o número não possa ser dividido por 3 nem por 5, retorne a string "bug!";
+Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar ["bug!", "fizzBuzz", "bug!", "fizz", "fizzBuzz"]. */
+let array = [2, 15, 7, 9, 45]
+function fizzBuzz(array) {
+    let arr = [];
+    for (let i = 0; i < array.length; i +=1){
+      if ((array[i] % 3) === 0){
+          arr.push("fizz");
+      }
+      else if ((array[i] % 5) === 0){
+          arr.push("buzz");
+      }
+      else if ( (array[i] % 3) === 0 && (array[i] % 5) === 0){
+          arr.push("fizzBuzz");
+      }
+      else if ( (array[i] % 3) !== 0 && (array[i] % 5) !== 0){
+          arr.push("bug!");
+      }
+  }
+      console.log(arr);
+  }
 
-for (let i = 0; i < array.length; i += 1){
-    if (array[i] >= resultado){
-        resultado = array[i];
-    } 
-    else if (array[i] < 0){
-        resultado = array[i];
-    }
-    else{
-        resultado = resultado;
-    }
-    
-}
-    for ( let i = 0; i < array.length; i += 1){
-        if (array[i] === resultado){
-            repete +=1;
-        }
-        else {
-            repete = repete;
-    }
-    }   
-    
-    /* return(repete); */
-    
-    console.log(repete);
+
+
