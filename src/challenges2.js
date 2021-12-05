@@ -1,14 +1,14 @@
 // Desafio 10
 function techList(arr, nome) {
-  let newArr = arr.sort();
-  let techList = [{}];
-  for (let i of newArr){
-      nomeTech['techList'] = {
-          tech: newArr[i],
-          name: nome        
+  arr.sort();
+    let techLista = [{}];
+    for (let i in arr.sort()){
+        techLista[i] = {
+            tech: arr[i],
+            name: nome        
+    }
   }
-}
-return techList;
+return techLista;
 }
 
 // Desafio 11
