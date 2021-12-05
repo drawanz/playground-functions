@@ -1,33 +1,21 @@
-/* 
-a -> 1
-e -> 2
-i -> 3
-o -> 4
-u -> 5 */
+/* ["React", "Jest", "HTML", "CSS", "JavaScript"]
+"Lucas" */ 
 
-let str = "h3 th2r2!"
-let arr = str.split('');
-let newArr = [];
 
-for (let i =0; i < arr.length; i +=1){
-    if ( arr[i] === "1"){
-        newArr.push("a");
+
+function techList(arr, nome) {
+    let newArr = arr.sort();
+    let techList = [{}];
+    for (let i of newArr){
+        nomeTech['techList'] = {
+            tech: newArr[i],
+            name: nome        
     }
-    else if ( arr[i] === "2"){
-        newArr.push("e");
-    }
-    else if ( arr[i] === "3"){
-        newArr.push("i");
-    }
-    else if ( arr[i] === "4"){
-        newArr.push("o");
-    }
-    else if ( arr[i] === "5"){
-        newArr.push("u");
-    }
-    else{
-        newArr.push(arr[i]);
-    } 
-    }
-let newString = newArr.join("");
-console.log(newString);
+  }
+  return techList;
+}
+
+
+
+
+  
