@@ -118,13 +118,37 @@ function encode(str) {
             newArr.push(arr[i]);
         } 
         }
-  let newString = newArr.join("");
-        return newString;
+  let newStringCodificada = newArr.join("");
+        return newStringCodificada;
 }
 
 
-function decode() {
-  // seu código aqui
+function decode(newStringCodificada) {
+let arr = newStringCodificada.split('');
+let newArr = [];
+
+    for (let i =0; i < arr.length; i +=1){
+        if ( arr[i] === "1"){
+            newArr.push("a");
+        }
+        else if ( arr[i] === "2"){
+            newArr.push("e");
+        }
+        else if ( arr[i] === "3"){
+            newArr.push("i");
+        }
+        else if ( arr[i] === "4"){
+            newArr.push("o");
+        }
+        else if ( arr[i] === "5"){
+            newArr.push("u");
+        }
+        else{
+            newArr.push(arr[i]);
+        } 
+        }
+    let newStringDescodificada = newArr.join("");
+    return newStringDescodificada;
 }
 
 module.exports = {

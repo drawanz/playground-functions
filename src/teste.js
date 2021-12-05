@@ -5,25 +5,25 @@ i -> 3
 o -> 4
 u -> 5 */
 
-let str = "hi there!"
+let str = "h3 th2r2!"
 let arr = str.split('');
 let newArr = [];
 
 for (let i =0; i < arr.length; i +=1){
-    if ( arr[i] === "a"){
-        newArr.push("1");
+    if ( arr[i] === "1"){
+        newArr.push("a");
     }
-    else if ( arr[i] === "e"){
-        newArr.push("2");
+    else if ( arr[i] === "2"){
+        newArr.push("e");
     }
-    else if ( arr[i] === "i"){
-        newArr.push("3");
+    else if ( arr[i] === "3"){
+        newArr.push("i");
     }
-    else if ( arr[i] === "o"){
-        newArr.push("4");
+    else if ( arr[i] === "4"){
+        newArr.push("o");
     }
-    else if ( arr[i] === "u"){
-        newArr.push("5");
+    else if ( arr[i] === "5"){
+        newArr.push("u");
     }
     else{
         newArr.push(arr[i]);
