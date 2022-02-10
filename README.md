@@ -1,8 +1,10 @@
-# Projeto Playground-Functions, desevolvido pela escola Trybe de programação (https://www.betrybe.com/) como método de avaliação. Todos os requisitos contidos nesse readme foram fornecidos pela escola, cabendo a mim o desenvolvimento e conclusão dos mesmos.
+# Projeto Playground-Functions
 
-# Esse foi o meu segundo projeto desenvolvido na escola e eu fui aprovado nele entregando 76,92% dos seus requisitos totais.
+- Desevolvido pela escola Trybe de programação (https://www.betrybe.com/) como método de avaliação. Todos os requisitos contidos nesse readme foram fornecidos pela escola, cabendo a mim o desenvolvimento e conclusão dos mesmos.
 
-# Durante o desenvolvimento do projeto, nos arquivos challlenges.js e challenges2.js os quais possuírem o seguinte comentário em suas linhas: // linha de código fornecida pela escola Trybe, significa que aquela linha já estava implementada quando o projeto foi passado a mim. Logo, as linhas que não possuirem tal comentário, foram feitas por mim.
+- Esse foi o meu segundo projeto desenvolvido na escola e eu fui aprovado nele entregando 76,92% dos seus requisitos totais.
+
+- Durante o desenvolvimento do projeto, nos arquivos challlenges.js e challenges2.js os quais possuírem o seguinte comentário em suas linhas: // linha de código fornecida pela escola Trybe, significa que aquela linha já estava implementada quando o projeto foi passado a mim. Logo, as linhas que não possuirem tal comentário, foram feitas por mim.
 
 # Habilidades
 
