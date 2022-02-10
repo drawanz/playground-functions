@@ -1,4 +1,3 @@
-/* eslint-disable no-empty */
 // Desafio 1
 function compareTrue(valor1, valor2) { // linha de código fornecida pela escola Trybe
     if (valor1 === true && valor2 === true) {
@@ -10,12 +9,12 @@ function compareTrue(valor1, valor2) { // linha de código fornecida pela escola
 
 // Desafio 2
 function calcArea(base, height) {
-    return (base*height)/2;
+    return (base * height) / 2;
 }
 
 // Desafio 3
 function splitSentence(string) {
-  return string.split(" ");
+  return string.split(' ');
 }
 
 // Desafio 4
@@ -26,7 +25,7 @@ function concatName(array) {
   
 // Desafio 5
 function footballPoints(wins, ties) {
-  return ((wins*3)+(ties*1));
+  return ((wins * 3) + (ties * 1));
 }
 
 
@@ -35,7 +34,7 @@ function highestCount(array) {
   let resultado = 0;
   let repete = 0;
 
-  for (let i = 0; i < array.length; i += 1){
+  for (let i = 0; i < array.length; i += 1) {
     if (array[i] >= resultado){
       resultado = array[i];
     } 
@@ -45,16 +44,16 @@ function highestCount(array) {
     else{
       resultado = resultado;
     }
-    }   
-    for ( let i = 0; i < array.length; i += 1){
+  }   
+    for ( let i = 0; i < array.length; i += 1) {
       if (array[i] === resultado){
-        repete +=1;
+        repete += 1;
       }
       else {
         repete = repete;
     }
-    }   
-    return(repete);
+  }   
+  return(repete);
 }
 
 // Desafio 7
@@ -127,26 +126,26 @@ function decode(newStringCodificada) {
 let arr = newStringCodificada.split('');
 let newArr = [];
 
-    for (let i =0; i < arr.length; i +=1){
-        if ( arr[i] === "1"){
-            newArr.push("a");
-        }
-        else if ( arr[i] === "2"){
-            newArr.push("e");
-        }
-        else if ( arr[i] === "3"){
-            newArr.push("i");
-        }
-        else if ( arr[i] === "4"){
-            newArr.push("o");
-        }
-        else if ( arr[i] === "5"){
-            newArr.push("u");
-        }
-        else{
-            newArr.push(arr[i]);
-        } 
-        }
+    for (let i =0; i < arr.length; i +=1) {
+      if ( arr[i] === "1"){
+        newArr.push("a");
+      }
+      else if ( arr[i] === "2"){
+        newArr.push("e");
+      }
+      else if ( arr[i] === "3"){
+        newArr.push("i");
+      }
+      else if ( arr[i] === "4"){
+        newArr.push("o");
+      }
+      else if ( arr[i] === "5"){
+        newArr.push("u");
+      }
+      else{
+        newArr.push(arr[i]);
+      } 
+    }
     let newStringDescodificada = newArr.join("");
     return newStringDescodificada;
 }
