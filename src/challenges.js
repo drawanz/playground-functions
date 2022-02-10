@@ -1,6 +1,6 @@
 /* eslint-disable no-empty */
 // Desafio 1
-function compareTrue(valor1, valor2) {
+function compareTrue(valor1, valor2) { // linha de código fornecida pela escola Trybe
     if (valor1 === true && valor2 === true) {
       return true
     } else {
